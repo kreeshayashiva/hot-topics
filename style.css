@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background-color: #ffe8f4;
+    line-height: 1.5;
+}
+h1{
+    text-align: center;
+}
+ul{
+    text-align: center ;
+    margin: 1rem;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+    margin-top: 2rem;
+    background-color: #AC92A6;
+    padding: 1rem;
+    font-family: "Noto Sans", sans-serif;
+}
+.masthead{
+    background-image: url('/img/masthead.jpg');
+    padding: 3rem;
+    background-size: 680px;
+    background-position: left;
+    font-family: "EB Garamond", serif;
+}
+.logo{
+    font-size: xxx-large;
+    text-align: center;
+    margin: 0.5rem;
+}
+.main-content img{
+    width:300px;
+    margin: auto;
+    border-radius: 20px;
+}
+.main-content h2{
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+.main-content p{
+    margin: 1rem;
+    border-bottom: 1px solid;
+    padding: 1rem;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 0.75rem;
+}
+.main-content figure{
+    background-color: #AC92A6;
+    border-radius: 20px;
+    padding: 0.1rem;
+}
+.main-content figcaption{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px solid;
+}
+.card h3{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+footer{
+    margin: 1rem;
+}
+.footer-content h2{
+    font-family: "EB Garamond", serif;
+}
+.footer-content p{
+    font-family: "Noto Sans", sans-serif;
+}
+.social{
+    float:right;
+}
+
+@media only screen and (min-width:35rem) {
+   .masthead{
+    background-repeat: no-repeat;
+    background-size: 1400px;
+   }
+   ul li{
+    display: block;
+    display: inline-grid;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    width:10rem;    
+   }
+   .main-content p{
+    font-size: 1rem;
+   }
+   .main-content figure{
+    float: left;
+   }
+   .card{
+    width:300px;
+    float:inline-start;
+    border-bottom: none;
+    margin-left: 3rem;
+   }
+   .card h3{
+    margin: 0;
+   }
+   footer{
+    border-bottom:  1px solid;
+   }
+}
+
+@media only screen and (min-width:80rem) {
+    .masthead{
+        background-size: 2500px;
+    }
+    ul li{
+        transition: 0.3s;
+    }
+    ul li:hover{
+        background-color:#470738;
+        color:#AC92A6;
+    }
+    .main-content p{
+        border-style: none;
+        border-bottom: 1px solid;
+        margin-bottom: 10rem;
+    }
+    .main-content figure{
+        width: 300px;
+    }
+    footer{
+        border-top: 1px solid;
+    }
+    .card{
+        float: none;
+        width:400px;
+        display: inline-block;   
+    }
+    .card h3{
+        text-align:left;
+    }
+    .cards{
+        margin-left: 4rem;
+        padding-left: 2rem;
+    }
+}
