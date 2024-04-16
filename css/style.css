@@ -19,7 +19,7 @@ ul li{
     font-family: "Noto Sans", sans-serif;
 }
 .masthead{
-    background-image: url('/img/masthead.jpg');
+    background-image: url('img/masthead.jpg');
     padding: 3rem;
     background-size: 680px;
     background-position: left;
